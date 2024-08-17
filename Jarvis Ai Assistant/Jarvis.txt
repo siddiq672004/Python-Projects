@@ -1,0 +1,60 @@
+Jarvis Voice Assistant
+This is a Python-based voice assistant named Jarvis. The assistant can perform various tasks such as providing the current time and date, searching Wikipedia, sending emails, capturing screenshots, telling jokes, checking system CPU and battery status, fetching weather information, and more.
+
+Features:
+
+Time & Date: Tells the current time and date.
+Wikipedia Search: Searches and summarizes content from Wikipedia.
+Email Sending: Sends an email via Gmail using your app-specific password.
+Web Search: Opens a web browser and searches for a user-defined query.
+System Operations: Logs out, shuts down, or restarts the system.
+Music Playback: Plays a song from a specified directory.
+Notes: Remembers and recalls information.
+Screenshot: Takes a screenshot and saves it to a predefined location.
+CPU & Battery Status: Checks and reports CPU usage and battery percentage.
+Jokes: Tells a random joke.
+Weather Information: Fetches the current weather of a specified city.
+
+Installation:
+
+To get started with Jarvis, you'll need to install the following Python libraries:
+pip install pyttsx3
+pip install SpeechRecognition
+pip install wikipedia
+pip install smtplib
+pip install webbrowser
+pip install pyautogui
+pip install psutil
+pip install pyjokes
+pip install requests
+
+Usage:
+
+Initialize the Assistant:
+
+Run the script to start Jarvis. It will greet you and ask how it can assist you.
+Voice Commands:
+
+Use simple voice commands like "What is the time?", "Search Wikipedia for Python programming", "Send an email", etc.
+Add Your API Key:
+
+For weather information, you'll need to create an account on Weatherbit and get your API key. Replace the placeholder "Weatherbit API key" in the code with your actual API key.
+Email Configuration:
+
+For sending emails, replace 'abc@gmail.com' with your email and update the app-specific password generated from your Google account security settings.
+Customization
+Voice Assistant Name:
+
+You can change the name from "Jarvis" to any other name by modifying the speak() function calls.
+Directory Paths:
+
+Update the paths for saving screenshots or playing music according to your file structure.
+Troubleshooting
+Speech Recognition Issues:
+
+If the assistant has trouble recognizing your voice, make sure your microphone is working properly, and try speaking clearly.
+Email Sending Issues:
+
+Ensure you have enabled "Less secure app access" in your Gmail account, or use an app-specific password.
+
+Feel free to fork this repository, submit issues, or create pull requests. Contributions to enhance the functionality or add new features are welcome!
